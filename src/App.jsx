@@ -7,7 +7,7 @@ const App = () => {
   return (
     <div className='flex text-gray-700'>
       <Sidebar />
-      <div className='flex flex-col w-full pl-48'>
+      <div className='flex flex-col w-full lg:pl-48'>
         <Navbar />
         <QuestionContainer />
       </div>
